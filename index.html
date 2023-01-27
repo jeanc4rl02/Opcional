@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maquetación</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="cards-container">
+      <div class="card">
+        <div class="seccion">
+          <h5 class="porcentaje-dcto">25%dcto</h5>
+          <img
+            src="./img/Maquetación 2.jpeg"
+            alt="Imagen de plato típico con pollo"
+            class="img-card"
+          />
+        </div>
+        <div class="seccion2">
+          <h3 class="titulo-card">CARNE ASADA</h3>
+          <p class="text">
+            Milanesa de pollo apanada • arroz • papa francesa • ensalada •
+            bebida personal
+          </p>
+          <div class="seccion3">
+            <p class="precios" class="precio-dcto">
+              Antes <del>$30.350</del> |
+            </p>
+            <h4 class="precios" class="precio-final">Ahora $22.950</h4>
+          </div>
+          <div class="seccion4">
+            <label for="personalizar">PERSONALIZA TU SELECCIÓN</label>
+            <select name="personalizar" id="cubiertos">
+              <option value="" disabled selected hidden>
+                ¿Deseas incluir cubiertos? (Obligatorio)*
+              </option>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+            <select name="personalizar" id="bebida">
+              <option value="" disabled selected hidden>
+                Elige la bebida de tu combo (Obligatorio)*
+              </option>
+              <option value="gaseosa">Gaseosa</option>
+              <option value="jugo">Jugo</option>
+              <option value="soda">Soda</option>
+              <option value="cerveza">Cerveza</option>
+            </select>
+            <input type="text" placeholder="Observaciones" />
+            <div class="botones">
+              <button class="contador">- 1 +</button>
+              <button>Agregar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
